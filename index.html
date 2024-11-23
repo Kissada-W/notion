@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kissada Waravit</title>
+    <style>
+        /* Reset margin and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Dark Web style background */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0e0e0e;
+            color: #00ff00; /* Neon green text */
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+        }
+
+        /* Center text styling */
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            animation: flicker 1.5s infinite alternate;
+        }
+
+        /* Flicker effect for the text */
+        @keyframes flicker {
+            0% {
+                opacity: 1;
+                text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
+            }
+            50% {
+                opacity: 0.8;
+                text-shadow: 0 0 2px #00ff00, 0 0 5px #00ff00, 0 0 15px #00ff00;
+            }
+            100% {
+                opacity: 1;
+                text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>who are you</h1>
+</body>
+</html>
